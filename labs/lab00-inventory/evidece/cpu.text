@@ -1,0 +1,61 @@
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 8
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 3
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 6656
+L2CacheSpeed                            :
+MaxClockSpeed                           : 1400
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                :
+SocketDesignation                       : U3E1
+Version                                 :
+VoltageCaps                             :
+Caption                                 : Intel64 Family 6 Model 186 Stepping 3
+Description                             : Intel64 Family 6 Model 186 Stepping 3
+InstallDate                             :
+Name                                    : Intel(R) Core(TM) 5 120U
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : KOMPUTER
+CurrentClockSpeed                       : 1400
+Family                                  : 769
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                :
+UniqueId                                :
+UpgradeMethod                           : 65
+Architecture                            : 9
+AssetTag                                : To Be Filled By O.E.M.
+Characteristics                         : 252
+L3CacheSize                             : 12288
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 10
+NumberOfEnabledCore                     : 10
+NumberOfLogicalProcessors               : 12
+PartNumber                              : To Be Filled By O.E.M.
+ProcessorId                             : BFEBFBFF000B06A3
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            : To Be Filled By O.E.M.
+ThreadCount                             : 12
+VirtualizationFirmwareEnabled           : False
+VMMonitorModeExtensions                 : False
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
