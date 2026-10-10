@@ -1,7 +1,0 @@
-Number FriendlyName                    SerialNumber         MediaType CanPool OperationalStatus HealthStatus Usage            Size
------- ------------                    ------------         --------- ------- ----------------- ------------ -----            ----
-0      NVMe SAMSUNG MZVL8512HELU-00BTW 0025_3847_51B2_3E96. SSD       False   OK                Healthy      Auto-Select 476.94 GB
-
-DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
------------ ------------ -------------- --------- ------------ ----------------- -------------      ----
-C                        NTFS           Fixed     Healthy      OK                    441.11 GB 476.83 GB
