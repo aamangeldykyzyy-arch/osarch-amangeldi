@@ -1,28 +1,11 @@
 # Lab 1: First Virtual Machine
 
 ## Resource justification
-
-My host has 12 threads (10 cores; I count threads, as in Lab 0), 16 GB of RAM
-and 441 GB free on C: (Lab 0). Idle, the host already uses about 5.9 GB of RAM,
-so about 9.7 GB is free.
-
-**vCPU:** I gave the guest 2 vCPU of my 12 threads. Ubuntu Server needs at
-least 1, and 2 leaves some headroom for the install. The upper limit from the
-lab is 6 (half of my threads), but I do not use it, because the remaining
-threads are needed by the host and by next week's Windows guest.
-
-**RAM:** I gave the guest 2 GB of my 16 GB. The installer is comfortable with
-1.5-2 GB. Upper limit: 16 - 5.9 (host) - 4 (reserve for the Windows guest in
-Lab 2, since Windows 11 requires at least 4 GB) = about 6 GB. I use 2 GB, not
-6, to keep a safety margin: if the guests take almost all of the free memory,
-the host starts swapping and everything slows down. Check: host 5.9 + Ubuntu 2
-+ Windows 4 = about 11.9 GB of 16, leaving about 4 GB free.
-
-**Disk:** I created a 25 GB dynamically allocated disk (stored as a single
-file, not preallocated) out of 441 GB free. Ubuntu Server needs about 5 GB, and
-25 GB leaves room for updates and packages. The file only grows as the guest
-writes to it. Check: 25 GB + 60 GB or more for the Windows guest = about 85 GB
-of 441 GB, leaving more than 350 GB.
+My host has 12 threads, 16 GB of RAM and 441 GB free on the VM volume (Lab 0).
+Idle, the host already uses about 5.9 GB of RAM.
+I gave the guest 2 vCPU of my 12 threads because Ubuntu Server needs at least 1, 2 leaves headroom for the install, and the remaining threads are needed by the host and by the Windows guest next week (the upper limit is 6, half of my threads).
+I gave it 2 GB of my 16 GB RAM because the installer is comfortable with 1.5-2 GB, and I keep 4 GB for the Windows guest in Lab 2 (Windows 11 requires at least 4 GB). The upper limit is 16 - 5.9 - 4 = about 6 GB, but I stay at 2 GB so the host does not start swapping when both guests run.
+I gave it a 25 GB dynamically allocated disk of my 441 GB free because Ubuntu Server needs about 5 GB, 25 GB leaves room for updates and packages, the file only grows as the guest writes, and more than 350 GB stays free for the Windows guest (60 GB or more).
 
 ## What I broke and how I confirmed it
 
@@ -40,10 +23,12 @@ I chose option A: delete the hostname file.
 
 ## What did not work
 
-- The installer's LVM layout gave `/` only 11.5 GB of the 25 GB disk, and the
-  other 11.5 GB stayed free in the volume group. I did not change it, as the
-  lab says.
-- [Inside the guest: `nproc` showed __, `free -h` showed __ total memory,
-  `df -h /` showed __ for the root filesystem.]
-- [Anything else that really went wrong and what I did about it, for example
-  login problems with the Broadcom account, or typing `yes` at the SSH prompt.]
+- **Root filesystem smaller than the disk.** I created a 25 GB disk, but the
+  installer's LVM layout gave `/` only 11.5 GB; the other 11.5 GB stayed free
+  in the volume group. I did not change it, as the lab says.
+- **Screenshot order.** I forgot to take `vm-settings.png` before the first
+  power-on, so I took it later from the VM settings. The settings were not
+  changed in between, so it shows the same 2 vCPU, 2 GB RAM and 25 GB disk.
+- **SSH prompt.** I could not answer the `yes` prompt on the first SSH
+  connection, so I used `ssh -o StrictHostKeyChecking=accept-new` instead,
+  and `guest-release.txt` was created correctly.
