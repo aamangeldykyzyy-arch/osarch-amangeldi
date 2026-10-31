@@ -1,0 +1,120 @@
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261031155632
+Имя пользователя: KOMPUTER\Asus
+Запуск от имени пользователя: KOMPUTER\Asus
+Имя конфигурации: 
+Компьютер: KOMPUTER (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 10036
+PSVersion: 5.1.22621.6133
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.6133
+BuildVersion: 10.0.22621.6133
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл windows-specs.txt
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-CimInstance Win32_ComputerSystem | Format-List Manufacturer, Model, SystemFamily
+
+
+Manufacturer : ASUSTeK COMPUTER INC.
+Model        : ASUS Vivobook 15 X1504VAP_F1504VA
+SystemFamily : ASUS Vivobook 15
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-CimInstance Win32_PhysicalMemoryArray | Format-List MaxCapacity, MemoryDevices
+
+
+MaxCapacity   : 67108864
+MemoryDevices : 2
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-CimInstance Win32_PhysicalMemory | Format-List DeviceLocator, Capacity, FormFactor, SMBIOSMemoryType, Speed
+
+
+DeviceLocator    : Controller0-ChannelA
+Capacity         : 8589934592
+FormFactor       : 12
+SMBIOSMemoryType : 26
+Speed            : 3200
+
+DeviceLocator    : Controller1-ChannelA-DIMM0
+Capacity         : 8589934592
+FormFactor       : 12
+SMBIOSMemoryType : 26
+Speed            : 3200
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-CimInstance Win32_ComputerSystem | Format-List TotalPhysicalMemory
+
+
+TotalPhysicalMemory : 16776159232
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-CimInstance Win32_Processor | Format-List Name, SocketDesignation, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, L2CacheSize, L3CacheSize
+
+
+Name                      : Intel(R) Core(TM) 5 120U
+SocketDesignation         : U3E1
+NumberOfCores             : 10
+NumberOfLogicalProcessors : 12
+MaxClockSpeed             : 1400
+L2CacheSize               : 6656
+L3CacheSize               : 12288
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-CimInstance Win32_BaseBoard | Format-List Manufacturer, Product
+
+
+Manufacturer : ASUSTeK COMPUTER INC.
+Product      : X1504VAP
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261031155835
+**********************
+**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261031160105
+Имя пользователя: KOMPUTER\Asus
+Запуск от имени пользователя: KOMPUTER\Asus
+Имя конфигурации: 
+Компьютер: KOMPUTER (Microsoft Windows NT 10.0.22631.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 10036
+PSVersion: 5.1.22621.6133
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.6133
+BuildVersion: 10.0.22621.6133
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл windows-specs.txt
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Get-PhysicalDisk | Format-List FriendlyName, MediaType, BusType, Size
+
+
+FriendlyName : NVMe SAMSUNG MZVL8512HELU-00BTW
+MediaType    : SSD
+BusType      : RAID
+Size         : 512110190592
+
+
+
+PS C:\Users\Asus\Desktop\labs\lab03-teardown\evidence> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261031160121
+**********************
