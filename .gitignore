@@ -1,0 +1,16 @@
+   # Windows / macOS system files
+   Thumbs.db
+   desktop.ini
+   .DS_Store
+
+   # Virtual machine files and images (too big, never commit)
+   *.vmdk
+   *.vmx
+   *.vmem
+   *.nvram
+   *.lck
+   *.iso
+
+   # Temporary files
+   *.tmp
+   ~$*
