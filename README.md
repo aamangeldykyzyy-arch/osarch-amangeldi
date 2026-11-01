@@ -16,7 +16,7 @@ Repository: `osarch-amangeldi`
 
 | # | Ticket | Folder | Status |
 |---|---|---|---|
-| 1 | VM build document | tickets/ticket1-vm-build-doc | Submitted |
+| 1 | VM build document | [tickets/ticket1-vm-build-doc](tickets/ticket1-vm-build-doc) | Submitted |
 
 ## AI assistants used
 
