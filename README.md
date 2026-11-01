@@ -16,7 +16,7 @@ Repository: `osarch-amangeldi`
 
 | # | Ticket | Folder | Status |
 |---|---|---|---|
-| 1 | VM build document | tickets/ticket1-vm-build-doc | In progress |
+| 1 | VM build document | tickets/ticket1-vm-build-doc | Submitted |
 
 ## AI assistants used
 
@@ -26,5 +26,6 @@ Repository: `osarch-amangeldi`
 | Lab 1 | Claude | Step-by-step help with the Ubuntu VM setup and snapshot; help with README wording |
 | Lab 2 | Claude | Step-by-step help with the Windows VM, network mode, firewall rule and memory experiment; help with README wording |
 | Lab 3 | Claude | Finding the ASUS spec page and a teardown of my model; explaining the command output; help with README wording |
+| Ticket 1 | Claude | Step-by-step help with the rebuild, explaining errors, drafting BUILD.md and README |
 
 All commands were run by me on my own machine, and all evidence files are my own output.
