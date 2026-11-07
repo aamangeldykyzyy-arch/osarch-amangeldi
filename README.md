@@ -1,4 +1,4 @@
-# Operating System Architecture — Amangeldi
+# Operating System Architecture - Amangeldi
 
 Course: Operating System Architecture, Innotech University, Almaty
 Repository: `osarch-amangeldi`
@@ -11,6 +11,7 @@ Repository: `osarch-amangeldi`
 | 1 | Your first virtual machine | [labs/lab01-first-vm](labs/lab01-first-vm) | Submitted |
 | 2 | A Windows guest, and a network between them | [labs/lab02-win-vm](labs/lab02-win-vm) | Submitted |
 | 3 | Teardown, and the same machine from the command line | [labs/lab03-teardown](labs/lab03-teardown) | Submitted |
+| 4 | Partition, mirror, fail, recover | [labs/lab04-storage](labs/lab04-storage) | Submitted |
 
 ## Tickets
 
@@ -27,5 +28,6 @@ Repository: `osarch-amangeldi`
 | Lab 2 | Claude | Step-by-step help with the Windows VM, network mode, firewall rule and memory experiment; help with README wording |
 | Lab 3 | Claude | Finding the ASUS spec page and a teardown of my model; explaining the command output; help with README wording |
 | Ticket 1 | Claude | Step-by-step help with the rebuild, explaining errors, drafting BUILD.md and README |
+| Lab 4 | Claude | Step-by-step help with adding the virtual disks, the Windows partition steps and the RAID 1 mirror (mdadm); explaining the command output and errors |
 
 All commands were run by me on my own machine, and all evidence files are my own output.
