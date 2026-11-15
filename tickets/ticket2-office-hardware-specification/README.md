@@ -89,5 +89,16 @@ I also priced the builds before asking Daniyar what software each person runs an
 Finally, I did not measure a real workload. A short test on an actual accountant's or designer's computer (how much memory their usual programs use together) would have replaced my assumptions about 16 GB and 32 GB with numbers.
 
 ---
+**Note: some alfa.kz pages (Ryzen 5 7600, Windows 11 Pro, ASUS VB27AQ and the three pre-built PCs) did not open when I rechecked them, so those prices are the ones shown in listings on 2026-11-15 and could not be re-verified.**
 
-*Evidence:* `evidence/` (arithmetic check, vendor price lines, PCPartPicker lists, peer check). Each file says what it proves.
+## Evidence
+
+Every file below says on its first lines what it proves.
+
+| File | What it proves |
+|---|---|
+| [evidence/arithmetic-check.txt](evidence/arithmetic-check.txt) | The role totals and the grand total (2,863,421 KZT) are the sum of the dated rows in `budget.csv`. Script output, plain text. |
+| [evidence/pcpartpicker-links.md](evidence/pcpartpicker-links.md) | The parts of each build are compatible with each other, and which parts were replaced by similar ones for the check. |
+| [evidence/peer-check.md](evidence/peer-check.md) | Another person worked from this document, re-checked prices and the totals, and noted what was unclear. |
+| [evidence/vendor-quotes/price-lines.md](evidence/vendor-quotes/price-lines.md) | Each price in `budget.csv` was shown by a Kazakhstan shop or listing on 2026-11-15, with the page it came from. |
+| [evidence/vendor-quotes/shopkz-kingston-nv3-1tb.md](evidence/vendor-quotes/shopkz-kingston-nv3-1tb.md) | One price (Kingston NV3 1 TB, shop.kz) saved as text from the shop page, with VAT and warranty terms. |
