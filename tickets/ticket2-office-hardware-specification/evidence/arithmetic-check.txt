@@ -1,0 +1,17 @@
+Arithmetic check of budget.csv (python3, run 2026-11-15)
+Proves: per-role totals and the grand total in README.md/builds.md are the sum of the dated rows in budget.csv.
+
+accountant        561,734 KZT  (8 rows)
+sales             669,533 KZT  (8 rows)
+web_developer     776,645 KZT  (10 rows)
+designer          855,509 KZT  (9 rows)
+
+GRAND TOTAL     2,863,421 KZT
+Budget          3,000,000 KZT
+Reserve            136,579 KZT (4.6%)
+
+4 x accountant build = 2,246,936
+4 x sales build      = 2,678,132
+4 x designer build   = 3,422,036
+
+Rows with missing date: 0
