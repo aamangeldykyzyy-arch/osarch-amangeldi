@@ -1,0 +1,36 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,AMD Ryzen 5 7600 BOX (100-100001015BOX),99927,alfa.kz item 8277796 https://alfa.kz/parts/cpu/amd/ryzen_5/8277796,2026-11-15
+accountant,Motherboard,"MSI PRO B650M-P (AM5, mATX, DDR5)",59366,Greenprice.kz via https://e-katalog.kz/MSI-PRO-B650M-P.htm,2026-11-15
+accountant,RAM,Goodram DDR5-5600 16GB 1x16 (GR5600D564L46S/16G),99629,"e-katalog.kz 'from' price, shop to confirm https://e-katalog.kz/brand-r/99/GOODRAM/myasorubki-goodram-otzyvy/",2026-11-15
+accountant,SSD,Kingston NV3 1TB M.2 NVMe (SNV3S/1000G),70931,Flexcom.kz via https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+accountant,PSU,MSI MAG A550BN 550W 80+ Bronze,19698,Flexcom.kz via https://e-katalog.kz/MSI-A550BN.htm,2026-11-15
+accountant,Case,Deepcool CC360 WH ARGB (mATX),28310,Forcecom.kz via https://e-katalog.kz/DEEPCOOL-CC360-ARGB-WHITE.htm,2026-11-15
+accountant,OS,Windows 11 Pro 64-bit Russian DSP OEI KZ-only (FQC-10548),87420,alfa.kz item 8598708 https://alfa.kz/pc/soft/os/microsoft/oem/8598708,2026-11-15
+accountant,Monitor,iiyama ProLite XB2797QSU-B1 27in QHD IPS 75Hz,96453,Flexcom.kz via https://e-katalog.kz/IIYAMA-PROLITE-XB2797QSU-B1.htm,2026-11-15
+sales,CPU,AMD Ryzen 5 7600 BOX (100-100001015BOX),99927,alfa.kz item 8277796 https://alfa.kz/parts/cpu/amd/ryzen_5/8277796,2026-11-15
+sales,Motherboard,"MSI PRO B650M-P (AM5, mATX, DDR5)",59366,Greenprice.kz via https://e-katalog.kz/MSI-PRO-B650M-P.htm,2026-11-15
+sales,RAM,Geil Polaris RGB DDR5-5600 CL38 32GB kit 2x16 (GOSG532GB5600C38ADC),230157,Satu.kz https://satu.kz/Ddr5-ram.html,2026-11-15
+sales,SSD,Kingston NV3 1TB M.2 NVMe (SNV3S/1000G),70931,Flexcom.kz via https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+sales,PSU,MSI MAG A550BN 550W 80+ Bronze,19698,Flexcom.kz via https://e-katalog.kz/MSI-A550BN.htm,2026-11-15
+sales,Case,Deepcool CC360 WH ARGB (mATX),28310,Forcecom.kz via https://e-katalog.kz/DEEPCOOL-CC360-ARGB-WHITE.htm,2026-11-15
+sales,OS,Windows 11 Pro 64-bit Russian DSP OEI KZ-only (FQC-10548),87420,alfa.kz item 8598708 https://alfa.kz/pc/soft/os/microsoft/oem/8598708,2026-11-15
+sales,Monitor,Irbis SMARTVIEW ISM27FIDVesa 27in FHD IPS 75Hz,73724,Satu.kz https://satu.kz/Monitor-27-ips.html,2026-11-15
+web_developer,CPU,"AMD Ryzen 7 7700 OEM (100-000000592), no cooler",94936,Ants.kz via https://e-katalog.kz/AMD-7700-OEM.htm,2026-11-15
+web_developer,Cooler,Deepcool AG400 Digital WH,15650,Forcecom.kz via https://e-katalog.kz/DEEPCOOL-AG400-DIGITAL-WHITE.htm,2026-11-15
+web_developer,Motherboard,"MSI PRO B650M-P (AM5, mATX, DDR5)",59366,Greenprice.kz via https://e-katalog.kz/MSI-PRO-B650M-P.htm,2026-11-15
+web_developer,RAM,Geil Polaris RGB DDR5-5600 CL38 32GB kit 2x16 (GOSG532GB5600C38ADC),230157,Satu.kz https://satu.kz/Ddr5-ram.html,2026-11-15
+web_developer,SSD,Kingston NV3 1TB M.2 NVMe (SNV3S/1000G),70931,Flexcom.kz via https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+web_developer,PSU,MSI MAG A550BN 550W 80+ Bronze,19698,Flexcom.kz via https://e-katalog.kz/MSI-A550BN.htm,2026-11-15
+web_developer,Case,Deepcool CC360 WH ARGB (mATX),28310,Forcecom.kz via https://e-katalog.kz/DEEPCOOL-CC360-ARGB-WHITE.htm,2026-11-15
+web_developer,OS,Windows 11 Pro 64-bit Russian DSP OEI KZ-only (FQC-10548),87420,alfa.kz item 8598708 https://alfa.kz/pc/soft/os/microsoft/oem/8598708,2026-11-15
+web_developer,Monitor,iiyama ProLite XB2797QSU-B1 27in QHD IPS 75Hz,96453,Flexcom.kz via https://e-katalog.kz/IIYAMA-PROLITE-XB2797QSU-B1.htm,2026-11-15
+web_developer,Monitor,Irbis SMARTVIEW ISM27FIDVesa 27in FHD IPS 75Hz,73724,Satu.kz https://satu.kz/Monitor-27-ips.html,2026-11-15
+designer,CPU,AMD Ryzen 5 7600 BOX (100-100001015BOX),99927,alfa.kz item 8277796 https://alfa.kz/parts/cpu/amd/ryzen_5/8277796,2026-11-15
+designer,Motherboard,"MSI PRO B650M-P (AM5, mATX, DDR5)",59366,Greenprice.kz via https://e-katalog.kz/MSI-PRO-B650M-P.htm,2026-11-15
+designer,RAM,Geil Polaris RGB DDR5-5600 CL38 32GB kit 2x16 (GOSG532GB5600C38ADC),230157,Satu.kz https://satu.kz/Ddr5-ram.html,2026-11-15
+designer,SSD,Kingston NV3 1TB M.2 NVMe (SNV3S/1000G),70931,Flexcom.kz via https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+designer,GPU,Palit GeForce RTX 5050 StormX OC 8GB,167281,RS6.kz via https://e-katalog.kz/PALIT-GEFORCE-RTX-5050-STORMX-OC.htm,2026-11-15
+designer,PSU,MSI MAG A550BN 550W 80+ Bronze,19698,Flexcom.kz via https://e-katalog.kz/MSI-A550BN.htm,2026-11-15
+designer,Case,Deepcool CC360 WH ARGB (mATX),28310,Forcecom.kz via https://e-katalog.kz/DEEPCOOL-CC360-ARGB-WHITE.htm,2026-11-15
+designer,OS,Windows 11 Pro 64-bit Russian DSP OEI KZ-only (FQC-10548),87420,alfa.kz item 8598708 https://alfa.kz/pc/soft/os/microsoft/oem/8598708,2026-11-15
+designer,Monitor,ASUS VB27AQ 27in QHD IPS 75Hz,92419,alfa.kz https://alfa.kz/peripherals/monitors/asus/vb27aq,2026-11-15
