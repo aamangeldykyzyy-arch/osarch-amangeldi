@@ -129,6 +129,7 @@ Get-WinEvent -FilterHashtable @{LogName='System'; ProviderName='Microsoft-Window
 ```
 
 This found nothing, so the Windows guest had never run out of memory before.
+There was nothing to find, so I had to make the memory run out myself, the same way as on Linux.
 
 ### 6.2 Making it happen
 I took a snapshot of the Windows guest and filled the memory with PowerShell (100 MB every second):
