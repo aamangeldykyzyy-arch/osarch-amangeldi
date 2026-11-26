@@ -13,7 +13,7 @@ Repository: `osarch-amangeldi`
 | 3 | Teardown, and the same machine from the command line | [labs/lab03-teardown](labs/lab03-teardown) | Submitted |
 | 4 | Partition, mirror, fail, recover | [labs/lab04-storage](labs/lab04-storage) | Submitted |
 | 5 | Encoding forensics | [labs/lab05-encoding](labs/lab05-encoding) | Submitted |
-
+| 6 | Live processes and memory pressure | [labs/lab06-processes](labs/lab06-processes) | Submitted |
 
 ## Tickets
 
@@ -32,5 +32,7 @@ Repository: `osarch-amangeldi`
 | Ticket 1 | Claude | Step-by-step help with the rebuild, explaining errors, drafting BUILD.md and README |
 | Lab 4 | Claude | Step-by-step help with adding the virtual disks, the Windows partition steps and the RAID 1 mirror (mdadm); explaining the command output and errors |
 | Lab 5 | Claude | Step-by-step help with the diagnosis (file, xxd, iconv, cat -A); explaining the bytes and why the Kazakh letters decide between CP1251, RK1048 and PT154; the BOM test, LibreOffice and cat |
+| Lab 6 | Claude | Step-by-step help with the three tools and the memory pressure test; explaining the memory numbers and the OOM / Event 2004 logs |
+
 
 All commands were run by me on my own machine, and all evidence files are my own output.
