@@ -1,0 +1,278 @@
+===== #01 ===== 
+C:\lab07
+===== #02 ===== 
+DESKTOP-SGCK69I
+desktop-sgck69i\ayaulym
+===== #03 ===== 
+ Volume in drive C has no label.
+ Volume Serial Number is 3483-ACBF
+
+ Directory of C:\dojo
+
+11/28/2026  08:50 PM    <DIR>          .
+11/28/2026  08:36 PM    <DIR>          ..
+11/28/2026  08:50 PM    <DIR>          backup
+11/28/2026  08:50 PM    <DIR>          logs
+               0 File(s)              0 bytes
+
+ Directory of C:\dojo\logs
+
+11/28/2026  08:50 PM    <DIR>          .
+11/28/2026  08:50 PM    <DIR>          ..
+11/28/2026  08:50 PM    <DIR>          old
+               0 File(s)              0 bytes
+               3 Dir(s)  40,262,811,648 bytes free
+===== #04 ===== 
+dojo started
+08:55 PM
+===== #05 ===== 
+C:\Windows\System32\PING.EXE
+===== #06 ===== 
+   IPv4 Address. . . . . . . . . . . : 192.168.245.130(Preferred) 
+   Default Gateway . . . . . . . . . : 192.168.245.2
+   DNS Servers . . . . . . . . . . . : 192.168.245.2
+===== #07 ===== 
+138
+===== #08 ===== 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+Notepad.exe                   7680 Console                    1     18,292 K
+Notepad.exe                   7156 Console                    1    102,916 K
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+Notepad.exe                   7680 Console                    1     18,252 K
+Notepad.exe                   7156 Console                    1    102,828 K
+ERROR: The process with PID 7680 could not be terminated.
+Reason: This process can only be terminated forcefully (with /F option).
+SUCCESS: Sent termination signal to the process with PID 7156.
+INFO: No tasks are running which match the specified criteria.
+===== #09 ===== 
+ERROR disk quota exceeded for user1 
+ERROR disk quota exceeded for user2 
+ERROR disk quota exceeded for user3 
+ERROR disk quota exceeded for user4 
+ERROR disk quota exceeded for user5 
+ERROR disk quota exceeded for user6 
+ERROR disk quota exceeded for user7 
+===== #10 ===== 
+11
+===== #11 ===== 
+        1 file(s) copied.
+ Volume in drive C has no label.
+ Volume Serial Number is 3483-ACBF
+
+ Directory of C:\dojo\logs
+
+11/28/2026  08:34 PM             1,071 app.log
+               1 File(s)          1,071 bytes
+
+ Directory of C:\dojo\backup
+
+11/28/2026  08:34 PM             1,071 app.log
+               1 File(s)          1,071 bytes
+               0 Dir(s)  40,254,504,960 bytes free
+===== #12 ===== 
+File Not Found
+===== #13 ===== 
+gateway DOWN
+===== #14 ===== 
+1:INFO user1 login ok 
+10:INFO user10 login ok 
+11:INFO user11 login ok 
+12:INFO user12 login ok 
+13:INFO user13 login ok 
+14:INFO user14 login ok 
+15:INFO user15 login ok 
+16:INFO user16 login ok 
+17:INFO user17 login ok 
+18:INFO user18 login ok 
+19:INFO user19 login ok 
+31:ERROR disk quota exceeded for user1 
+38:WARN slow response for user1 
+===== #15 ===== 
+95 aidos
+88 dana
+79 timur
+72 zarina
+61 bekzat
+===== #16 ===== 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+dwm.exe                       1044 Console                    1     83,460 K
+Memory Compression            1960 Services                   0    156,868 K
+MsMpEng.exe                   3220 Services                   0    175,268 K
+explorer.exe                  5792 Console                    1    338,904 K
+SearchHost.exe                6304 Console                    1    110,656 K
+StartMenuExperienceHost.e     6320 Console                    1    131,172 K
+Widgets.exe                   6428 Console                    1     69,860 K
+msedgewebview2.exe            2004 Console                    1    107,752 K
+msedgewebview2.exe            3336 Console                    1     71,592 K
+ShellExperienceHost.exe       6464 Console                    1     67,904 K
+OneDrive.exe                  9576 Console                    1     76,692 K
+WindowsTerminal.exe           9336 Console                    1     89,140 K
+===== #17 ===== 
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       8
+  TCP    [::]:135               [::]:0                 LISTENING       8
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+svchost.exe                      8 RpcEptMapper, RpcSs                         
+===== #18 ===== 
+        1 file(s) copied.
+127.0.0.1 dojo.test
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+
+Pinging dojo.test [127.0.0.1] with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+        1 file(s) copied.
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+Ping request could not find host dojo.test. Please check the name and try again.
+===== #19 ===== 
+C:\dojo\errors.txt 16
+C:\dojo\notes.txt 24
+C:\dojo\procs.txt 10688
+C:\dojo\scores.txt 51
+C:\dojo\backup\app.log 1071
+C:\dojo\logs\app.log 1071
+===== #20 ===== 
+
+ Log File : C:\dojo\robocopy.log
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 9:38:45 PM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir          1	C:\dojo\logs\
+	    New File  		    1071	app.log100%  
+	  New Dir          0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     1.0 k     1.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Saturday, November 28, 2026 9:38:45 PM
+
+exit code 1 
+
+ Log File : C:\dojo\robocopy.log
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 9:38:59 PM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   2	C:\dojo\logs\
+	    New File  		       7	new.txt100%  
+	                   0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         2         0         0         0
+   Files :         2         1         1         0         0         0
+   Bytes :     1.0 k         7     1.0 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :               3,500 Bytes/sec.
+   Speed :               0.200 MegaBytes/min.
+   Ended : Saturday, November 28, 2026 9:38:59 PM
+
+exit code 1 
+
+ Log File : C:\dojo\robocopy.log
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 9:39:29 PM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	C:\dojo\logs\
+	  *EXTRA File 		       7	new.txt
+	                   0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         2         0         0         0
+   Files :         1         0         1         0         0         1
+   Bytes :     1.0 k         0     1.0 k         0         0         7
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Saturday, November 28, 2026 9:39:29 PM
+
+exit code 2 
+
+ Log File : C:\dojo\robocopy.log
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 9:39:36 PM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	C:\dojo\logs\
+	                   0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         2         0         0         0
+   Files :         1         0         1         0         0         0
+   Bytes :     1.0 k         0     1.0 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Saturday, November 28, 2026 9:39:36 PM
+
+exit code 0 
